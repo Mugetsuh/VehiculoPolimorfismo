@@ -9,6 +9,6 @@ package com.mycompany.vehiculopoli;
  *
  * @author shhin
  */
-public class Blcycle {
+public class Blcycle extends Vehicle{
     
 }

@@ -9,6 +9,6 @@ package com.mycompany.vehiculopoli;
  *
  * @author shhin
  */
-public class PoweredVehicle {
+public abstract class PoweredVehicle extends Vehicle{
     
 }

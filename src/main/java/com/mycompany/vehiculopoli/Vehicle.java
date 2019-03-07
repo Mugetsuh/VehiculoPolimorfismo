@@ -9,6 +9,6 @@ package com.mycompany.vehiculopoli;
  *
  * @author shhin
  */
-public class Vehicle {
+public abstract class Vehicle {
     
 }

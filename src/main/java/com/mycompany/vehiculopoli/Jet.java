@@ -9,6 +9,6 @@ package com.mycompany.vehiculopoli;
  *
  * @author shhin
  */
-public class Jet {
+public class Jet extends PoweredVehicle{
     
 }

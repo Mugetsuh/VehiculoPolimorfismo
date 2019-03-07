@@ -9,6 +9,6 @@ package com.mycompany.vehiculopoli;
  *
  * @author shhin
  */
-public class Skateboard extends Vehicle{
+public interface Ivehicle {
     
 }
