@@ -11,4 +11,19 @@ package com.mycompany.vehiculopoli;
  */
 public abstract class PoweredVehicle extends Vehicle{
     
+    private String myFuelType;
+
+    public PoweredVehicle(String myFuelType, String myBrand, String myModel) {
+        super(myBrand, myModel);
+        this.myFuelType = myFuelType;
+    }
+
+    public String getMyFuelType() {
+        return myFuelType;
+    }
+
+    public void setMyFuelType(String myFuelType) {
+        this.myFuelType = myFuelType;
+    }
+    
 }

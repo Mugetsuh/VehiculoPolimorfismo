@@ -11,4 +11,6 @@ package com.mycompany.vehiculopoli;
  */
 public interface Ivehicle {
     
+    //void hacerAlgo();
+    //void hacerOtraCosa();
 }

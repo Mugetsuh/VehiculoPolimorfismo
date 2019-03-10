@@ -9,6 +9,31 @@ package com.mycompany.vehiculopoli;
  *
  * @author shhin
  */
-public abstract class Vehicle {
+public abstract class Vehicle implements Ivehicle{
+    
+    private String myBrand;
+    private String myModel;
+
+    public Vehicle(String myBrand, String myModel) {
+        this.myBrand = myBrand;
+        this.myModel = myModel;
+    }
+
+    public String getMyBrand() {
+        return myBrand;
+    }
+
+    public void setMyBrand(String myBrand) {
+        this.myBrand = myBrand;
+    }
+
+    public String getMyModel() {
+        return myModel;
+    }
+
+    public void setMyModel(String myModel) {
+        this.myModel = myModel;
+    }
+    
     
 }

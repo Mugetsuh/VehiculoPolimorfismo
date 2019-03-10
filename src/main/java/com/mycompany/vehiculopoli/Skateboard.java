@@ -11,4 +11,19 @@ package com.mycompany.vehiculopoli;
  */
 public class Skateboard extends Vehicle{
     
+    private String myBoardLength;
+
+    public Skateboard(String myBoardLength, String myBrand, String myModel) {
+        super(myBrand, myModel);
+        this.myBoardLength = myBoardLength;
+    }
+
+    public String getMyBoardLength() {
+        return myBoardLength;
+    }
+
+    public void setMyBoardLength(String myBoardLength) {
+        this.myBoardLength = myBoardLength;
+    }
+    
 }
