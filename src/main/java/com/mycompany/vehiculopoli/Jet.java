@@ -9,9 +9,12 @@ package com.mycompany.vehiculopoli;
  *
  * @author shhin
  */
-public class Jet extends PoweredVehicle{
-    
+public class Jet extends PoweredVehicle {
+
     private String myEngineCount;
+
+    public Jet() {
+    }
 
     public Jet(String myEngineCount, String myFuelType, String myBrand, String myModel) {
         super(myFuelType, myBrand, myModel);
@@ -24,5 +27,15 @@ public class Jet extends PoweredVehicle{
 
     public void setMyEngineCount(String myEngineCount) {
         this.myEngineCount = myEngineCount;
+    }
+
+    @Override
+    public void imprimeDesdeInterface() {
+        System.out.println("Se imprime el metodo de la interface desde la clase Jet");
+    }
+
+    @Override
+    public void imprimrDesdeVehiculo() {
+        System.out.println("Se imprime el metodo de la clase Vehicle desde la clase Jet");
     }
 }

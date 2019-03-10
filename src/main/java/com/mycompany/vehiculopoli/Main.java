@@ -7,10 +7,12 @@ package com.mycompany.vehiculopoli;
 
 /**
  *
- * @author shhin
+ * @author diego
  */
-public interface Ivehicle {
+public class Main {
 
-    void imprimeDesdeInterface();
-    //void hacerOtraCosa();
+    public static void main(String args[]) {
+        Principal principal = new Principal();
+        principal.menuPrincipal();
+    }
 }

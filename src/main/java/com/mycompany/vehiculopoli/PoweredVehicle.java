@@ -9,9 +9,12 @@ package com.mycompany.vehiculopoli;
  *
  * @author shhin
  */
-public abstract class PoweredVehicle extends Vehicle{
-    
+public abstract class PoweredVehicle extends Vehicle {
+
     private String myFuelType;
+
+    public PoweredVehicle() {
+    }
 
     public PoweredVehicle(String myFuelType, String myBrand, String myModel) {
         super(myBrand, myModel);
@@ -25,5 +28,8 @@ public abstract class PoweredVehicle extends Vehicle{
     public void setMyFuelType(String myFuelType) {
         this.myFuelType = myFuelType;
     }
-    
+
+    public void imprimeDesdePowered() {
+        System.out.println("Se imprime desde la clase PoweredVehicle.");
+    }
 }

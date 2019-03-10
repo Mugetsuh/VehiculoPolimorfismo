@@ -9,9 +9,12 @@ package com.mycompany.vehiculopoli;
  *
  * @author shhin
  */
-public class Skateboard extends Vehicle{
-    
+public class Skateboard extends Vehicle {
+
     private String myBoardLength;
+
+    public Skateboard() {
+    }
 
     public Skateboard(String myBoardLength, String myBrand, String myModel) {
         super(myBrand, myModel);
@@ -25,5 +28,14 @@ public class Skateboard extends Vehicle{
     public void setMyBoardLength(String myBoardLength) {
         this.myBoardLength = myBoardLength;
     }
-    
+
+    @Override
+    public void imprimeDesdeInterface() {
+        System.out.println("Se imprime el metodo de la interface desde la clase Skateboard.");
+    }
+
+    @Override
+    public void imprimrDesdeVehiculo() {
+        System.out.println("Se imprime el metodo de la clase Vehicle desde la clase Skateboard.");
+    }
 }
